@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Golden Car</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <i class="fas fa-car"></i> Golden Car
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="inventory.html">Inventaire</a></li>
+                    <li><a href="about.html">À Propos</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+        <h1>Nous Contacter</h1>
+        <p>Nous sommes ici pour vous aider</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Envoyez-nous un Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom Complet *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Sujet *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Sélectionnez un sujet</option>
+                                <option value="informations">Informations sur un véhicule</option>
+                                <option value="financement">Financement</option>
+                                <option value="reprise">Reprise d'ancien véhicule</option>
+                                <option value="entretien">Entretien et Service</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Envoyer le Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <aside class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Adresse</h3>
+                        <p>123 Avenue des Champs-Élysées<br>75008 Paris, France</p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Téléphone</h3>
+                        <p>+33 1 23 45 67 89<br><small>Disponible du lundi au samedi, 9h-18h</small></p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@goldencar.com<br>support@goldencar.com</p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Horaires</h3>
+                        <p>Lundi - Vendredi: 9h - 18h<br>Samedi: 10h - 17h<br>Dimanche: Fermé</p>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Visitez-nous</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2052033352527!2d2.3069145!3d48.8699286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ff4b9ff9ff9%3A0x123456789!2s123%20Avenue%20des%20Champs-%C3%89lys%C3%A9es%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Golden Car</h4>
+                    <p>Votre destination de confiance pour les véhicules haut de gamme</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="inventory.html">Inventaire</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#financing">Financement</a></li>
+                        <li><a href="#trade-in">Reprise d'Ancien</a></li>
+                        <li><a href="#maintenance">Maintenance</a></li>
+                        <li><a href="#warranty">Garantie</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                    <p><i class="fas fa-envelope"></i> info@goldencar.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Golden Car. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
